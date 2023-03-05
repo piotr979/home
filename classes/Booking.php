@@ -110,7 +110,7 @@ class Booking {
     return false;
   }
   public function getAll($conn) {
-    $sql = "SELECT * FROM bookings ORDER BY last_name";
+    $sql = "SELECT * FROM bookings WHERE id = 4 ORDER BY last_name ";
 
     $result = $conn->query($sql);
     if ($result) {

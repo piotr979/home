@@ -20,7 +20,9 @@ echo '</pre>';
 ?>
 
 <section>
-
+<?php if (empty($articles)): ?>
+<p>No article founds</p>
+<?php else: ?>
   <table>
     <thead>
       <tr>
@@ -39,4 +41,5 @@ echo '</pre>';
     <?php endforeach; ?>
     </tbody>
   </table>
+<?php endif; ?>
 </section>
