@@ -12,3 +12,10 @@ COPY apache/apache.conf /etc/apache2/sites-enabled/000-default.conf
 # COPY . /var/www
 # WORKDIR /var/www
 CMD ["apache2-foreground"]
+
+# This is comment */
+# and another
+# alt branch
+#and this is another
+
+#alternative branch
